@@ -34,16 +34,23 @@
     background: white;
     color: black;
     display: flex;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: large;
     align-items: center;
     justify-content: center;
-    padding: 0rem 1rem;
+    padding: 0 0.8rem 0 0rem;
     border-radius: 2rem;
+    cursor: pointer;
+}
+
+.desktopMenuBtn:hover{
+    color: black;
+    text-decoration: underline;
 }
 
 .desktopMenuImg {
     object-fit: cover;
-    height: 2rem;
+    height: 1.5rem;
     width: 2rem;
-    margin: 0.75rem;
+    margin: 0.5rem;
 }
