@@ -13,7 +13,7 @@
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 50vh;
+    height: 100vh;
 }
 
 .introContent {
@@ -29,9 +29,19 @@
 
 .hello {
     font-size: 1.8rem;
+    overflow: hidden;
+    /*border-right: .15em solid orange; */
+    white-space: nowrap;
     font-weight: 200;
-    animation: typing 1s steps(20, end) forwards;
+    /*width: 0;
+    animation: typing 5s steps(7, end), forwards; */
 }
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 
 .introName {
     color: yellow;
@@ -66,4 +76,25 @@
     margin: 0 0.25rem;
     height: 1.75rem;
     width: 1.75rem;
+}
+
+@media screen and (max-width:840px){
+    .bg {
+        right: -10vw;
+    }
+
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px){
+    .bg {
+        right: -20vw;
+    }
+
 }
