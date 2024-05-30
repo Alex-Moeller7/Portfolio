@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import {Link} from 'react-scroll';
 import contactMe from '../../assets/contactMe.png';
-//import bg from 'Large pic on right of home screen';
+import bg from '../../assets/Bg_photo.png';
 
 const Intro = () => {
   return (
@@ -13,7 +13,7 @@ const Intro = () => {
             <p class="introPara">I am a versatile Software Engineering student at Iowa State University <br/> with hands-on experience in academic and professional settings.</p>
             <Link><button class="btn"><img src={contactMe} alt="Contact Me" className='btnImg'/>Contact Me</button></Link>        
         </div>
-        <img src="FILL THIS" alt="Profile Pic" className='bg' />
+        <img src={bg} alt="Profile Pic" className='bg' />
     </section>
   )
 }
