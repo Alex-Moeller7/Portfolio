@@ -1,19 +1,42 @@
 import React from 'react';
 import './skills.css';
+import WebDesign from '../../assets/webDesignImg.png';
+import WebDev from '../../assets/webDevImg.png';
+import AppDev from '../../assets/appDevImg.png';
+
 
 const Skills = () => {
   return (
     <section id='skills'>
-        <span class="skillTitle">My Strengths:</span>
-        <span class="skillDesc">As a Software Engineering student at Iowa State University, 
-        I have gained practical experience in both academic and professional environments. 
-        With strong skills in HTML, CSS, JavaScript, Java, PHP, and others, 
-        I have built websites like YardLogo and Capybara Weather and a Poker app for Android. 
-        Additionally, I have leadership experience through roles in Phi Gamma Delta and am pursuing certification as a Personal Trainer. 
-        Passionate about software engineering, I continuously seek to enhance my skills and contribute to impactful projects.
+        <span class="skillTitle">My Strengths</span>
+        <span class="skillDesc">I'm a Software Engineering student at Iowa State University with experience in HTML, CSS, JavaScript, Java, and PHP.
+        I've built websites like YardLogo and Capybara Weather, and an Android Poker app.
+        I also have leadership experience in Phi Gamma Delta and am pursuing Personal Trainer certification.
         </span>
         <div class="skillBars">
-            <div class="skillBar"></div>
+            <div class="skillBar">
+              <img src={WebDev} alt="WebDevelopment" class="skillBarImg"/>
+              <div class="skillBarText">
+                <h2>Web Development/Web Scraping</h2>
+                <p>Expert in web creation and data extraction.</p>
+              </div>
+            </div>
+
+            <div class="skillBar">
+              <img src={AppDev} alt="AppDevelopment" class="skillBarImg"/>
+              <div class="skillBarText">
+                <h2>Full Stack Application Development</h2>
+                <p>Proficient in full-stack app development.</p>
+              </div>
+            </div>
+
+            <div class="skillBar">
+              <img src={WebDesign} alt="WebsiteDesign" class="skillBarImg"/>
+              <div class="skillBarText">
+                <h2>Website Design</h2>
+                <p>Skilled in designing user-friendly websites.</p>
+              </div>
+            </div>
         </div>
     </section>
   )

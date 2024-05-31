@@ -9,11 +9,11 @@
 
 .bg {
     position: absolute;
-    top: -1rem;
+    top: 1rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 80vh;
+    height: 70vh;
     margin-top: 3rem;
     border-radius: 25%;
     /*background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);*/
@@ -23,7 +23,7 @@
     height: 100vh;
     width: 100vh;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@
 }
 
 .hello {
-    font-size: 1.8rem;
+    font-size: 2rem;
     overflow: hidden;
     /*border-right: .15em solid orange; */
     white-space: nowrap;
@@ -51,7 +51,7 @@
 }
 
 .introPara {
-    font-size: medium;
+    font-size: 1.2rem;
     font-weight: 200;
     letter-spacing: 1px;
 }
@@ -60,10 +60,10 @@
     background: white;
     display: flex;
     font-weight: 500;
-    font-size: medium;
+    font-size: 0.9rem;
     align-items: center;
     margin: 1rem 0;
-    padding: 0.5rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border-radius: 2rem;
     justify-content: center;
     cursor: pointer;
@@ -77,8 +77,8 @@
 .btnImg {
     object-fit: cover;
     margin: 0 0.25rem;
-    height: 1.75rem;
-    width: 1.75rem;
+    height: 1.9rem;
+    width: 1.9rem;
 }
 
 @media screen and (max-width:840px){
