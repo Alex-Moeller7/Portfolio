@@ -9,9 +9,7 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span class="skillTitle">My Strengths</span>
-        <span class="skillDesc">I'm a Software Engineering student at Iowa State University with experience in HTML, CSS, JavaScript, Java, and PHP.
-        I've built websites like YardLogo and Capybara Weather, and an Android Poker app.
-        I also have leadership experience in Phi Gamma Delta and am pursuing Personal Trainer certification.
+        <span class="skillDesc">I'm a Software Engineering student at Iowa State University with experience in HTML, CSS, JavaScript, React, Java, and PHP.
         </span>
         <div class="skillBars">
             <div class="skillBar">
