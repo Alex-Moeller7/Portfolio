@@ -2,6 +2,7 @@ import Navbar from "./components/NavBar/navbar";
 import Intro from "./components/Intro/intro";
 import Skills from "./components/Skills/skills";
 import LinkBtns from "./components/LinkBtns/linkBtns";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Intro />
       <Skills />
       <LinkBtns />
-
+      <Footer />
     </div>
   );
 }
